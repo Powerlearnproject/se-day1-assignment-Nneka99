@@ -11,20 +11,33 @@ Companies rely on custom software solutions to automate processes, manage data, 
 Software engineering is at the heart of digital transformation, allowing businesses and governments to shift from traditional operations to digital platforms.
 
 Identify and describe at least three key milestones in the evolution of software engineering.
-1968 – The term software engineering was first introduced at the NATO Software Engineering Conference to address the growing complexity of software development.
-1970s – Object-Oriented Programming (OOP) languages, such as Smalltalk and later C++, emerged, enabling modular and reusable code.
-1990s – Agile methodologies, like Scrum and Extreme Programming (XP), were introduced to improve flexibility and collaboration in software development
+
+The Development of Structured Programming (1960s-1970s): In response to the chaos and inefficiency of earlier programming practices, structured programming emerged. This paradigm emphasized clear control structures, such as loops and conditionals, which helped reduce complexity and improve maintainability. Key figures like Edsger Dijkstra and Niklaus Wirth contributed significantly to this shift, laying the foundation for modern software development practices.
+
+The Rise of Object-Oriented Programming (1980s): Object-Oriented Programming (OOP) emerged in the 1980s with languages like Smalltalk and later C++. OOP focuses on organizing software design around objects and data rather than functions and logic. This approach promoted better modularity, reusability, and easier maintenance, revolutionizing how software was developed, especially for large-scale applications.
+
+Agile Software Development (2000s): In the early 2000s, Agile methodologies, as outlined in the Agile Manifesto, transformed how software development teams worked. Emphasizing collaboration, flexibility, and iterative development, Agile focused on delivering small, incremental improvements rather than big, inflexible releases. This allowed for faster adaptation to changes, improved customer feedback, and more efficient project management.
 
 List and briefly explain the phases of the Software Development Life Cycle.
+
 The Software Development Life Cycle (SDLC) consists of structured stages to guide software creation:
 
-Requirement Analysis – Understanding and documenting what the software must do.
-Design – Creating the system architecture and user interface plans.
-Implementation – Writing and assembling the code.
-Testing – Checking for bugs, security issues, and performance problems.
-Maintenance – Updating and fixing software after deployment.
+Planning: In this phase, the project's scope, objectives, resources, timeline, and risks are defined. Stakeholders discuss the goals of the software, budget, and any constraints. The feasibility of the project is assessed to ensure it’s viable in terms of cost, time, and resources.
+
+Feasibility Study (Analysis): During this phase, the software requirements are gathered and analyzed. This involves understanding user needs and system specifications. A feasibility study is conducted to determine whether the project is technically, financially, and operationally feasible. The end result is often a requirements specification document.
+
+Design: Based on the requirements, the system architecture and design are created. This phase focuses on both high-level design (overall system architecture) and low-level design (detailed component design). The goal is to define the software’s structure and how the various components will interact.
+
+Implementation (Coding): In this phase, the actual source code is written according to the design specifications. Developers use programming languages, frameworks, and tools to build the system. This is the longest phase and involves collaboration among developers, testers, and project managers to ensure proper functionality.
+
+Testing: After coding, the software undergoes rigorous testing to find and fix bugs or errors. This phase involves various testing methods like unit testing, integration testing, system testing, and user acceptance testing (UAT). Testing ensures that the software meets the specified requirements and functions as intended.
+
+Deployment: Once the software is tested and validated, it is deployed to the production environment. This phase might involve initial deployment for a small group of users (beta release) or a full rollout. Deployment can be done in stages, depending on the project's complexity.
+
+Maintenance: After deployment, the software enters the maintenance phase, where updates, patches, and improvements are made. Users may report issues, or the software might need to evolve to meet new requirements. Maintenance ensures that the software continues to function properly and stays up-to-date with changing technologies.
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
+
 Waterfall Model – A traditional, step-by-step approach where each phase is completed before moving to the next. Best for projects with clear, stable requirements.
 Agile Model – A flexible, iterative approach where development happens in short cycles (sprints) with continuous feedback. Suitable for projects with evolving requirements.
 
@@ -73,6 +86,7 @@ Common Challenges:
 Managing complex software systems.
 Adapting to changing requirements.
 Meeting tight deadlines.
+
 Effective Strategies:
 
 Using Agile methodologies for flexibility.
@@ -80,6 +94,7 @@ Implementing continuous integration for smoother updates.
 Maintaining clear documentation to track changes and decisions.
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+
 Unit Testing – Testing individual components of code.
 Integration Testing – Ensuring different modules work together.
 System Testing – Evaluating the entire system’s performance.
@@ -87,8 +102,8 @@ Acceptance Testing – Verifying if the software meets user requirements.
 
 #Part 2: Introduction to AI and Prompt Engineering
 
-
 Define prompt engineering and discuss its importance in interacting with AI models.
+
 Prompt engineering is the process of crafting precise and structured inputs (prompts) for AI models to generate accurate and useful responses.
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
