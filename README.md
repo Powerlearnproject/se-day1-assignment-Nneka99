@@ -104,7 +104,7 @@ Acceptance Testing – Verifying if the software meets user requirements.
 
 Define prompt engineering and discuss its importance in interacting with AI models.
 
-Prompt engineering is the process of crafting precise and structured inputs (prompts) for AI models to generate accurate and useful responses.
+Prompt engineering is the process of crafting precise and structured inputs (prompts) for AI models to generate accurate and useful responses. This is necessary for the improvement of Artificial Intelligence.
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
 Vague Prompt: "Tell me about cats."
